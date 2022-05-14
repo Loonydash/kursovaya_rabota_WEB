@@ -1,0 +1,56 @@
+p {
+    margin: 0;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.plusButtonDiv {
+    right: 0;
+    display: flex;
+    justify-content: right;
+    margin: 0 0 10px;
+}
+
+.widget {
+    width: 300px;
+    height: 100px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.CharCode {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.valuteConteiner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.valuteNameAndPrev {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.valuteConteiner button{
+    width: 10px;
+}
+
+.minusButton {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 15px;
+}
